@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Rizn_FixUrlRewrites>
+            <version>0.1.0</version>
+        </Rizn_FixUrlRewrites>
+    </modules>
+    
+    <global>
+        <models>
+            <rizn_fix_url_rewrites>
+                <class>Rizn_FixUrlRewrites_Model</class>
+            </rizn_fix_url_rewrites>
+            <catalog>
+                <rewrite>
+                    <url>Rizn_FixUrlRewrites_Model_Rewrite_Catalog_Url</url>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+    
+</config>
